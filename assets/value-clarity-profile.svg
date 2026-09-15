@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 462" fill="none">
+  <defs>
+    <linearGradient id="line" x1="35" y1="35" x2="440" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#87e9ff"/><stop offset=".58" stop-color="#20c9ff"/><stop offset="1" stop-color="#2b83eb"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#line)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The reference's actual left-facing side profile, not a frontal bulb or bust. -->
+    <path d="M129 172C145 129 190 103 252 103c60 0 103 22 127 62 18 32 20 73 10 106-7 25-26 50-42 75-17 27-20 62-5 103H192l-17-42c-26 6-49 11-68 6-18-5-24-17-20-31l8-12c-9-4-16-10-16-16l8-11c-12-7-12-17-1-24-9-5-11-11-6-18 22-27 36-50 41-77 4-17 3-36 8-52Z" fill="#08263a"/>
+    <!-- Small clouds flank the profile in the same places as the supplied example. -->
+    <path d="M130 172c-7-9-16-13-27-11-3-15-13-24-27-24-13 0-24 9-26 22-13-4-25 4-25 17 0 12 10 19 22 19h65c12 0 21-8 21-19l-3-4Z" fill="#08263a"/>
+    <path d="M376 172c7-9 16-13 27-11 3-15 13-24 27-24 13 0 24 9 26 22 13-4 25 4 25 17 0 12-10 19-22 19h-65c-12 0-21-8-21-19l3-4Z" fill="#08263a"/>
+    <!-- Organic brain shape with the central confirmation mark. -->
+    <path d="M169 167c8-18 25-27 45-24 12-12 29-15 43-5 16-9 34-5 44 10 22-3 39 10 43 30 18 8 24 27 15 43 11 14 7 34-9 43 1 15-10 27-25 28-11 12-28 17-42 10-17 10-35 5-46-8-20 4-38-7-42-24-19-5-30-22-27-40-12-15-9-33 5-44-2-8-3-13-4-19Z" fill="#0a3148"/>
+    <circle cx="263" cy="218" r="42" fill="#071625"/>
+    <path d="m242 219 15 15 29-31" stroke-width="11"/>
+    <!-- Five evenly spaced rays, including the reference's taller center ray. -->
+    <path d="m147 77-14-21M192 67l-7-31M256 66V25M320 67l8-31M365 77l14-21" stroke-width="10"/>
+  </g>
+</svg>
