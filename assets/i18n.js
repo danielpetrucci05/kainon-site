@@ -41,7 +41,15 @@
     '.footer .foot-grid > div:nth-child(3) h4:nth-of-type(2)': 'footer_follow_title',
     '.social-dropdown a:nth-child(1)': 'tiktok_brazil',
     '.social-dropdown a:nth-child(2)': 'tiktok_north_america',
-    '.social-dropdown a:nth-child(3)': 'tiktok_europe'
+    '.social-dropdown a:nth-child(3)': 'tiktok_europe',
+    '#email-contact-title': 'email_contact_title',
+    '#email-contact-description': 'email_contact_description',
+    '#open-gmail-app strong': 'email_gmail_app',
+    '#open-gmail-app small': 'email_gmail_app_copy',
+    '#open-email-app strong': 'email_mail_app',
+    '#open-email-app small': 'email_mail_app_copy',
+    '#open-gmail-web strong': 'email_gmail_web',
+    '#open-gmail-web small': 'email_gmail_web_copy'
   };
   const htmlNodes = {
     '#servicos .services-cta a': 'services_link',
@@ -65,7 +73,11 @@
     '#processo .step:nth-child(4) .step-icon': 'fourth_step',
     '.footer .brandmark': 'brand_symbol',
     '.footer .socials': 'social_links',
-    '.social-toggle': 'tiktok_region'
+    '.social-toggle': 'tiktok_region',
+    '.email-contact-close': 'email_contact_close',
+    '#open-gmail-app': 'email_gmail_app',
+    '#open-email-app': 'email_mail_app',
+    '#open-gmail-web': 'email_gmail_web'
   };
   const altLabels = {
     '#valores .value:nth-child(1) img': 'innovation_icon',
@@ -93,12 +105,13 @@
   const en = {
     brand_home: 'KAINON - home', brand_symbol: 'KAINON K symbol', main_nav: 'Main navigation', language: 'Language', menu_open: 'Open menu', menu_close: 'Close menu', social_links: 'Social media',
     tiktok_region: 'TikTok — choose a region', tiktok_brazil: 'Brazil', tiktok_north_america: 'North America', tiktok_europe: 'Europe',
+    email_contact_title: 'How would you like to send it?', email_contact_description: 'Choose only one option to write to KAINON.', email_gmail_app: 'Gmail app', email_gmail_app_copy: 'Open the installed Gmail app', email_mail_app: 'Mail or another app', email_mail_app_copy: 'Use your device’s default app', email_gmail_web: 'Gmail Web', email_gmail_web_copy: 'Open in your browser', email_contact_close: 'Close email options',
     nav_products: 'Products', nav_services: 'Services', nav_process: 'How it works', nav_contact: 'Contact', nav_talk: 'Talk to us <span>→</span>',
     hero_micro: 'Software development', hero_sub: 'Technology for an organized future',
     hero_title: 'We create solutions that help businesses stay organized,<br>turn ideas into reality and build new products.',
     hero_lead: 'At KAINON, possibilities take shape, projects become reality and the future begins with code.',
     hero_products: 'Explore our products →', hero_idea: 'Tell us about your idea',
-    hero_aside_title: 'IDEAS<br>TODAY.<br>IMPACT<br>TOMORROW.',
+    hero_aside_title: 'IDEAS<br>TODAY<br>IMPACT<br>TOMORROW',
     hero_aside_copy: 'From small workflows to large systems, we turn real challenges into everyday practicality.',
     hero_aside_micro: 'Kainon // organized future',
     products_eyebrow: 'Our products', products_title: 'Technology that creates <span class="gradient">real impact.</span>',
@@ -109,10 +122,10 @@
     apps: 'Apps', apps_copy: 'Digital products for iOS, Android and the web, from concept to launch.',
     sites: 'Websites', sites_copy: 'Digital experiences that showcase brands, products and services.',
     automation: 'Automation & Integration', automation_copy: 'We connect systems, automate processes and improve efficiency.', services_link: 'Learn more <span>→</span>',
-    process_eyebrow: 'How we work', step_1: 'Understand', step_1_copy: 'The challenge, idea<br>and goal.',
-    step_2: 'Structure', step_2_copy: 'Product, experience<br>and technology.',
-    step_3: 'Develop', step_3_copy: 'Building, testing<br>and improving.',
-    step_4: 'Deliver', step_4_copy: 'A solution ready<br>to grow.',
+    process_eyebrow: 'How we work', step_1: 'Understand', step_1_copy: 'Challenges, ideas<br>and goals.',
+    step_2: 'Structure', step_2_copy: 'Products, experiences<br>and technologies.',
+    step_3: 'Develop', step_3_copy: 'Solutions, tests<br>and improvements.',
+    step_4: 'Deliver', step_4_copy: 'Solutions ready<br>to grow.',
     about_eyebrow: 'About Kainon', about_title: 'More than technology.<br><span class="gradient">A purpose.</span>',
     about_origin: 'KAINON was born from the needs of professionals working in fields where organization, precision and efficiency are essential. That challenge inspired a broader vision: to develop technologies that simplify processes, connect people and turn complexity into organized solutions.',
     about_today: 'Today, KAINON develops its own products and projects for companies seeking to improve their processes, increase operational efficiency and build more organized, consistent structures ready to grow.',
@@ -125,7 +138,7 @@
     contact_title: 'Have an idea?<br><span class="gradient">Let’s turn it</span> into technology.',
     contact_copy: 'Whether it is a new product, a system, an app or a custom project, we are ready to listen and build with you.',
     contact_link: 'Tell us about your idea　→',
-    footer_slogan: 'Ideas today. Impact tomorrow.',
+    footer_slogan: 'Ideas today Impact tomorrow',
     footer_intro: 'Turning ideas into real solutions for a simpler, more efficient and more human world.',
     footer_nav_title: 'NAVIGATION', footer_contact_title: 'CONTACT', footer_follow_title: 'FOLLOW KAINON',
     footer_keywords: 'TECHNOLOGY<br>PEOPLE<br>SOLUTIONS<br>IMPACT',
